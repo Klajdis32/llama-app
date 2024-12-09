@@ -1,0 +1,61 @@
+.Sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 130px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid white;
+    padding: 20px 0;
+    color: rgb(189, 189, 189);
+    z-index: 1000;
+    transition: transform 0.3s ease; /* Ομαλή μετάβαση */
+}
+
+.Sidebar.hidden {
+    transform: translateX(-100%); /* Κρύβει το Sidebar προς τα αριστερά */
+}
+
+.toname {
+    height: 5%;
+    margin-bottom: 5px;
+    font-weight: 550;
+    color: white;
+    font-size: 18px;
+}
+
+
+.talinks {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-weight: 550;
+}
+
+.toa {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.loginbutSlid {
+    position: absolute;
+    bottom: 2%;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: -10px;
+}
+
+.toylink {
+    color: white;
+    text-decoration: none;
+}

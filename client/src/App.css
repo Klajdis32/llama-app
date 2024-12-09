@@ -1,0 +1,49 @@
+/* App.css */
+.app-layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  transition: margin-left 0.3s ease;
+}
+
+.Sidebar {
+  width: 130px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.Sidebar.hidden {
+  transform: translateX(-130px);
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.app-layout.sidebar-hidden .app-main {
+  margin-left: 0;
+}
+
+.app-layout:not(.sidebar-hidden) .app-main {
+  margin-left: 130px;
+}
+
+.app-header {
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-content {
+  flex: 1;
+  padding: 0px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}

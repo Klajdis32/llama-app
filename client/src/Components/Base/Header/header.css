@@ -1,0 +1,86 @@
+/* Στυλ Header χωρίς position: fixed */
+.header {
+    position: relative; /* Δεν είναι πλέον σταθερό */
+    width: 100%; /* Καταλαμβάνει όλο το πλάτος */
+    height: 60px; /* Ύψος του header */
+    color: white;
+    display: flex; /* Flexbox για στοίχιση */
+    border-bottom: 1px solid rgb(255, 255, 255); /* Γραμμή στο κάτω μέρος */
+    background-color: #333;
+    font-size: 20px;
+}
+
+/* Το κύριο περιεχόμενο κάτω από το Header */
+.main-content {
+    flex: 1; /* Καταλαμβάνει όλο τον υπόλοιπο χώρο */
+    display: flex;
+    flex-direction: column;
+    overflow: auto; /* Scroll αν ξεπεράσει το ύψος */
+}
+
+.headerIn {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between; /* Χωρίζει τα στοιχεία */
+    align-items: center; /* Κεντράρει τα στοιχεία κάθετα */
+    width: 100%;
+}
+
+.model {
+    flex: 1; /* Κρατά το στοιχείο αριστερά */
+    text-align: left; /* Επιβεβαιώνει ότι το περιεχόμενο είναι ευθυγραμμισμένο αριστερά */
+}
+
+.LogoName {
+    flex: 1; /* Κεντρικό στοιχείο */
+    text-align: center; /* Κεντράρει το κείμενο */
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.loginbut {
+    font-weight: 550;
+    margin-top: -5px;
+    flex: 1; /* Κρατά το στοιχείο δεξιά */
+    text-align: right; /* Ευθυγραμμίζει το περιεχόμενο δεξιά */
+}
+
+.toLink {
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    display: inline-block; /* Διασφαλίζει ότι το ύψος ταιριάζει με το περιεχόμενο */
+}
+
+
+.toggle-sidebar {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    border: 2px solid #555;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.toggle-sidebar:hover {
+    border: 2px solid #444;
+}
+
+.model-select {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+}
