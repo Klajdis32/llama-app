@@ -35,7 +35,7 @@ Follow these steps to get the project up and running:
 
    Open your editor and clone the repository:
    ```bash
-      git clone <repository-url>](https://github.com/Klajdis32/llama-chat-app.git)
+  	git clone https://github.com/Klajdis32/llama-chat-app.git
    ```
 
 2. **Create a .env File in the API Folder**
