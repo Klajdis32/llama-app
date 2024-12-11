@@ -1,7 +1,7 @@
 
-# Llama Chat Application
+# Chat Interface for Llama LLM
 
-A React-based chat application utilizing the powerful Llama-3.3-70B-Versatile model and the Groq API for intelligent and versatile conversational experiences.
+A React-based chat interface utilizing the powerful Llama-3.3-70B-Versatile model and the Groq API for intelligent and versatile conversational experiences.
 
 ---
 
