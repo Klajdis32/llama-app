@@ -91,7 +91,7 @@ Follow these steps to get the project up and running:
 
 ## **Contributing**
 
-Feel free to fork the repository and submit pull requests for improvements or feature additions. Ensure all new code is thoroughly tested before submitting.
+Feel free to fork the repository and submit pull requests for improvements or feature additions. Ensure all new code is thoroughly tested before submitting!
 
 ---
 
